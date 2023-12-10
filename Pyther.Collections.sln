@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pyther.Collections", "Pyther.Collections\Pyther.Collections.csproj", "{76862C7E-E9CC-41FA-93F2-EE688FC44245}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{0BF4C736-0122-4E35-A574-466F497FE389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{47803A8C-41DB-476F-A7AC-169FFB589C6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76862C7E-E9CC-41FA-93F2-EE688FC44245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76862C7E-E9CC-41FA-93F2-EE688FC44245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76862C7E-E9CC-41FA-93F2-EE688FC44245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76862C7E-E9CC-41FA-93F2-EE688FC44245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF4C736-0122-4E35-A574-466F497FE389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF4C736-0122-4E35-A574-466F497FE389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF4C736-0122-4E35-A574-466F497FE389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF4C736-0122-4E35-A574-466F497FE389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47803A8C-41DB-476F-A7AC-169FFB589C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47803A8C-41DB-476F-A7AC-169FFB589C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47803A8C-41DB-476F-A7AC-169FFB589C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47803A8C-41DB-476F-A7AC-169FFB589C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26B61118-1B52-4F35-BA65-DA4756C45E61}
+	EndGlobalSection
+EndGlobal

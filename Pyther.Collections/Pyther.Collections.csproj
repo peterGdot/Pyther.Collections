@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>0.1.1.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Generic\.Enums\BinaryTreeTraversal.cs" />
+    <Compile Include="Generic\.Enums\GraphFlags.cs" />
+    <Compile Include="Generic\.Enums\IsCyclicAlgorithm.cs" />
+    <Compile Include="Generic\.Enums\ShortestPathAlgorithm.cs" />
+    <Compile Include="Generic\.Enums\TopologicalSortAlgorithm.cs" />
+    <Compile Include="Generic\.Tree\BinaryTree.cs" />
+    <Compile Include="Generic\.Tree\BinaryTreeNode.cs" />
+    <Compile Include="Generic\.Tree\Heap.cs" />
+    <Compile Include="Generic\.Tree\MaxHeap.cs" />
+    <Compile Include="Generic\.Tree\MinHeap.cs" />
+    <Compile Include="Generic\.Tree\TreeNode.cs" />
+    <Compile Include="Generic\.Tree\Tree.cs" />
+    <Compile Include="Generic\Algorithms\.IsCyclic\IsCyclicDFS.cs" />
+    <Compile Include="Generic\Algorithms\.IsCyclic\IsCyclicKahn.cs" />
+    <Compile Include="Generic\Algorithms\.ShortestPath\ShortestPathDijkstra.cs" />
+    <Compile Include="Generic\.Graph\DirectedGraph.cs" />
+    <Compile Include="Generic\.Graph\Graph.cs" />
+    <Compile Include="Generic\.Graph\GraphEdge.cs" />
+    <Compile Include="Generic\.Graph\GraphNode.cs" />
+    <Compile Include="Generic\.Graph\UndirectedGraph.cs" />
+    <Compile Include="Generic\Algorithms\.TopologicalSort\TopologicalSortDFS.cs" />
+    <Compile Include="Generic\Algorithms\.TopologicalSort\TopologicalSortKahn.cs" />
+    <Compile Include="Generic\Algorithms\.Traverse\BFS.cs" />
+    <Compile Include="Generic\Algorithms\.Traverse\DFS.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OptimizedPriorityQueue" Version="5.1.0" />
+  </ItemGroup>
+
+</Project>
