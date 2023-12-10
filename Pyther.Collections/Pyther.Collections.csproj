@@ -5,6 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyVersion>0.1.1.0</AssemblyVersion>
+    <Title>Pyther.Collections</Title>
+    <Version>0.1.0</Version>
+    <Authors>Peter Grundmann</Authors>
+    <Description>Provides tree &amp; graph collections with various algorithms.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/peterGdot/Pyther.Collections</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,6 +38,13 @@
     <Compile Include="Generic\Algorithms\.TopologicalSort\TopologicalSortKahn.cs" />
     <Compile Include="Generic\Algorithms\.Traverse\BFS.cs" />
     <Compile Include="Generic\Algorithms\.Traverse\DFS.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
